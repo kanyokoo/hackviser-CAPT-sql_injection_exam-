@@ -22,3 +22,8 @@ Give it time and it will give you the database name.
 
 To answer question 13: What is the name of the user under whose authority the web application is running?
 run the script: extract_user.py
+
+
+
+#to answer question 14, run the extract_version.py
+python3 extract_version.py
