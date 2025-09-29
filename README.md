@@ -17,3 +17,8 @@ The key points are where you see TRUE; like the line:
 We now have a pattern, a way to get the database name;
 run the script: extract_db_name_or_style.py
 Give it time and it will give you the database name.
+
+
+
+To answer question 13: What is the name of the user under whose authority the web application is running?
+run the script: extract_user.py
