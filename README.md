@@ -16,14 +16,21 @@ The key points are where you see TRUE; like the line:
       05. ' OR IF(1=1,SLEEP(6),0)-- -                                                      -> elapsed 10.00s -> TRUE (status=timeout/none)
 We now have a pattern, a way to get the database name;
 run the script: extract_db_name_or_style.py
+python3 extract_db_name_or_style.py
 Give it time and it will give you the database name.
 
 
 
 To answer question 13: What is the name of the user under whose authority the web application is running?
 run the script: extract_user.py
+python3 extract_user.py
 
 
 
-#to answer question 14, run the extract_version.py
+to answer question 14, run the extract_version.py
 python3 extract_version.py
+
+
+To answer question 15, run the get_antares_password.py
+python3 get_antares_password.py
+
